@@ -1,0 +1,36 @@
+
+
+#content-contact img{
+    width: 30%;
+}
+#social{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    /* grid-column; */
+}
+.button{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    #content-contact{
+        text-align: center;
+    }
+    #social{
+        display: block;
+        width: 100%;
+    }
+    #content-contact img{
+        width: 20%;
+    }
+}

@@ -22,6 +22,7 @@ function resetCurrentClass(){
 	document.getElementById("main").classList.remove("current");
 	document.getElementById("skill").classList.remove("current");
 	document.getElementById("education").classList.remove("current");
+	document.getElementById("contact").classList.remove("current");
 }
 
 function addCurrentClass(id){
@@ -29,3 +30,6 @@ function addCurrentClass(id){
 	document.getElementById(id).classList.add("current");
 }
 
+function email(){
+	window.open('mailto:shreyash.agrawal@students.iiit.ac.in');
+}

@@ -1,0 +1,40 @@
+#education-table{
+	overflow-x: auto;
+	/* min-width: 200px; */
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#education-table table{
+	width: 100%;
+	border-spacing: 15px;
+
+}
+
+#education-table a{
+	text-decoration: none;
+	color: black;
+}
+#education-table a:hover{
+	text-decoration: underline;
+}
+
+.table-cell{
+	/* border: 1px solid #ddd; */
+	padding: 8px;
+	/* margin: 10px; */
+	text-align: center;
+	font-size: 16px;
+}
+
+#education-table tr:hover {
+	background-color: #ddd;
+}
+
+#education-table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #e8491d;
+	color: white;
+  }

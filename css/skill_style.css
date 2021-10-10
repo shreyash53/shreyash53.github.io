@@ -1,0 +1,32 @@
+
+#content-skill-project{
+	font-size: 16px;
+}
+
+#content-skill{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	/* grid-row-gap: 20px; */
+	grid-column-gap: 20px;
+}
+
+.skill-block{
+	padding: 15px;
+}
+
+.skill-block:hover{
+	font-weight: bold;
+	color: #e8491d;
+	border: 1px solid #35424a;
+}
+
+#content-project ul{
+	list-style-type: square;
+}
+
+@media (max-width: 428px) {
+	#content-skill{
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+}
