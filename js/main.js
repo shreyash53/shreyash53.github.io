@@ -14,6 +14,16 @@ var sectionContent = document.getElementById("center-pane-content");
 
 changeContent('main');
 
+
+var timeSection = document.getElementById('time');
+// console.log(timeSection.innerText);
+displayTime();
+setInterval(displayTime, 1000);
+function displayTime(){
+	timeSection.innerHTML = new Date().toLocaleString();
+	// timeSection.innerText = "simple";
+}
+
 function changeContentHelper(data){
 	sectionContent.innerHTML = data;
 }

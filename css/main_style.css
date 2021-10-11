@@ -6,6 +6,10 @@
 	width: 40%;
 }
 
+#content-main p{
+    font-size: 16px;
+}
+
 @media (max-width : 768px) {
     #content-main{
         display: block;

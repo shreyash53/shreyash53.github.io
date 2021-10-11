@@ -55,7 +55,7 @@ footer{
 
 #header{
 	display: grid;
-	grid-template-columns: 40% 60%;
+	grid-template-columns: 50% 50%;
 }
 
 #header nav{
@@ -64,8 +64,8 @@ footer{
 
 #nav-bar{
 	display: grid;
-	grid-template-columns: 20% 30% 30% 10%;
-	grid-column-gap: 10px;
+	grid-template-columns: 10% 20% 10% 10%;
+	grid-column-gap: 35px;
 
 }
 
@@ -73,6 +73,15 @@ footer{
 	margin-top: 20px;
 }
 
+#footer{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	font-size: 16px;
+}
+
+#time{
+	margin-top: 15px;
+}
 
 @media (max-width : 768px) {
 	#header, #nav-bar{
@@ -97,6 +106,13 @@ footer{
 	}
 	header, header #branding{
 		padding-bottom: 15px;
+	}
+}
+
+@media (max-width: 570px) {
+	#footer{
+		display: block;
+		width: 100%;
 	}
 }
 
